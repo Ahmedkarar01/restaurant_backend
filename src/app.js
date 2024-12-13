@@ -39,7 +39,6 @@ app.use('/api/orders', orderRoutes);
 // Analytics routes
 app.use('/api/analytics', analyticsRoutes);
 
-module.exports = app; // Export the app instance
 
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
